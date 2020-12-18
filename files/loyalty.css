@@ -1,0 +1,1937 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900);
+/* Basic Variables */
+/* Fonts */
+/* default letter spacing for titles */
+/* Main neutral scale */
+/* Interaction Color */
+/* Brand colors */
+/* Accesibility */
+/* z-index */
+/* rhythm */
+/* Icon in button defaut size */
+/* Box shadow */
+/* LEGACY DEPRECATED */
+/* LEGACY DEPRECATED END */
+/* References  */
+/* screen Dimensions */
+/* Mixings */
+/* components */
+/* Skeleton style dependecies */
+/* Desktop Basic Variables */
+.fuenteIcon:before {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'icon-roi';
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  text-decoration: inherit;
+  text-rendering: auto;
+  text-transform: none;
+}
+/* z-index */
+/* Add */
+/* Mod */
+/* rhythm reset */
+/* Icon size reset */
+/* Form builder */
+.roi-loyalty__desktop-container {
+  margin: 50px auto 0;
+  max-width: 1200px;
+}
+.roi-loyalty__desktop-container #roi-auth {
+  margin: auto;
+  max-width: 800px;
+}
+#roi-auth__modal {
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10001;
+}
+#roi-auth__modal * {
+  box-sizing: border-box;
+}
+#roi-auth__modal .modal-holder {
+  height: 100%;
+  left: 0;
+  overflow-y: auto;
+  padding: 15px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10001;
+}
+#roi-auth__modal .modal-holder__title-holder > :first-of-type {
+  margin-top: 5px;
+}
+#roi-auth__modal .modal-holder__title {
+  padding-bottom: 10px;
+}
+#roi-auth__modal .modal-holder__title-icon {
+  padding-right: 5px;
+}
+#roi-auth__modal .modal-holder__close-button {
+  display: block;
+  float: right;
+}
+#roi-auth__modal .modal-holder__button {
+  margin-top: 15px;
+  width: inherit;
+}
+#roi-auth__modal .modal-holder__close-button {
+  border: 0;
+  cursor: pointer;
+  padding: 10px 15px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+#roi-auth__modal .auth__modal {
+  height: auto;
+  margin: 0 auto;
+  max-height: 100%;
+  max-width: 800px;
+  overflow-y: auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#roi-auth__modal .auth__modal-close-button {
+  border: 0;
+  cursor: pointer;
+  padding: 10px 15px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+#roi-auth__modal .auth__modal-holder {
+  padding: 40px;
+}
+@media (max-width: 992px) {
+  #roi-auth__modal .auth__modal-holder {
+    padding: 20px;
+  }
+}
+@media (max-width: 768px) {
+  #roi-auth__modal .auth__modal-holder {
+    padding: 30px;
+  }
+}
+#roi-auth .auth {
+  padding: 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  width: 100%;
+}
+#roi-auth .auth__title {
+  margin-bottom: 0;
+}
+#roi-auth .auth__title,
+#roi-auth .auth__text {
+  padding: 0 0;
+}
+#roi-auth .auth__signin {
+  padding: 0 0 0 0;
+}
+#roi-auth .auth__ortext {
+  display: flex;
+  padding: 5px 0 0;
+  width: 100%;
+}
+#roi-auth .auth__ortext::before,
+#roi-auth .auth__ortext::after {
+  align-self: center;
+  flex-grow: 1;
+  height: 1px;
+  margin: 0 0;
+}
+#roi-auth .auth__success {
+  padding: 0 0;
+}
+#roi-auth .auth__success,
+#roi-auth .auth__pre-success,
+#roi-auth .auth__password-recovery,
+#roi-auth .auth__password-success {
+  margin-bottom: 10px;
+}
+#roi-auth .auth__password-success {
+  margin-top: 10px;
+}
+#roi-auth .auth__booking-button {
+  display: block;
+  margin: 10px 0 0;
+  padding: 0.7em 1.2em 0.7em;
+  width: 100%;
+}
+#roi-auth .auth__forget,
+#roi-auth .auth__required,
+#roi-auth .auth__register,
+#roi-auth .auth__logout,
+#roi-auth .auth__success-text {
+  display: block;
+  margin: 10px 0 0;
+}
+#roi-auth .auth__advice {
+  display: block;
+  margin: 10px 0 0;
+  text-align: center;
+}
+#roi-auth .auth__check,
+#roi-auth .auth__smile,
+#roi-auth .auth__mail {
+  margin: 10px 0;
+}
+#roi-auth .auth__checkbox-field {
+  margin-bottom: 5px;
+  margin-top: 10px;
+  align-items: center;
+  display: flex;
+}
+#roi-auth .auth__checkbox-field label {
+  padding-left: 5px;
+  width: calc(100% -  3.2rem);
+}
+#roi-auth .auth__checkbox-field input {
+  height: 3.2rem;
+  margin: 0;
+  width: 3.2rem;
+}
+#roi-auth .auth__modal {
+  height: 100%;
+  left: 0;
+  overflow-y: auto;
+  padding: calc(0 + 5px);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10001;
+}
+#roi-auth .auth__modal-close-button {
+  border: 0;
+  display: block;
+  float: right;
+}
+#roi-auth .auth__advantages {
+  margin: 0 0 0;
+  padding: 0 0 0;
+}
+#roi-auth .auth__advantages-intro {
+  margin: 5px 0;
+}
+#roi-auth .auth__advantages-list {
+  margin: 10px 0;
+}
+#roi-auth .auth__advantages-item {
+  align-items: flex-start;
+  display: flex;
+  margin: 0 0;
+}
+#roi-auth .auth__advantages-item-text {
+  padding-left: 10px;
+  padding-top: 0.1rem;
+}
+#roi-auth .auth__advantages--line {
+  margin-top: 20px;
+}
+#roi-auth .auth__email-button {
+  align-items: center;
+  display: flex;
+  height: 40px;
+  margin: 10px 0 0;
+  padding: 0;
+  width: 100%;
+}
+#roi-auth .auth__email-button-icon {
+  display: inline-block;
+  height: 100%;
+  line-height: inherit;
+}
+#roi-auth .auth__email-button-text {
+  line-height: 1.3;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#roi-auth .auth__loyalty-logo {
+  height: 50px;
+  margin: 0 10px 10px;
+}
+#roi-auth .auth__social-gdpr-text {
+  margin: 10px 0;
+}
+#roi-auth .auth__social-gdpr-user-info {
+  margin-bottom: 10px;
+  padding: 10px;
+}
+#roi-auth .auth__social-gdpr-user-info-name {
+  display: block;
+}
+#roi-auth .auth__social-gdpr-user-info-mail {
+  display: block;
+}
+#roi-auth .auth__social-gdpr-button {
+  display: block;
+  margin: 10px 0 0;
+  padding: 0.7em 1.2em 0.7em;
+  width: 100%;
+}
+#roi-auth .auth .input-error-message {
+  display: block;
+  padding-top: 3px;
+}
+#roi-auth .auth__content {
+  margin-bottom: 10px;
+  width: 100%;
+}
+#roi-auth .auth__fields {
+  border: 0;
+  padding: 0;
+}
+#roi-auth .auth__booking-button,
+#roi-auth .auth__social-gdpr-button {
+  cursor: pointer;
+  line-height: 1.2;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.6em 1.8em 0.5em;
+  width: auto;
+}
+#roi-auth .auth__email-button {
+  margin: 0;
+}
+#roi-auth .auth__title {
+  margin: 0 30px 15px 0;
+}
+#roi-auth .auth__text {
+  padding: 0;
+}
+#roi-auth .auth__form {
+  padding: 0;
+  width: 100%;
+}
+#roi-auth .auth__wrap {
+  flex: 1 auto;
+  padding: 0 30px 0 0;
+  width: 50%;
+}
+@media (max-width: 768px) {
+  #roi-auth .auth__wrap {
+    padding: 0;
+    width: 100%;
+  }
+}
+#roi-auth .auth__signup .auth__booking-button,
+#roi-auth .auth__success .auth__booking-button {
+  display: inline-block;
+}
+@media (max-width: 768px) {
+  #roi-auth .auth__signup .auth__mail,
+  #roi-auth .auth__success .auth__mail {
+    display: none;
+  }
+}
+#roi-auth .auth__ortext {
+  display: none;
+}
+#roi-auth .auth__advantages {
+  padding: 0 0 0 30px;
+  width: 50%;
+}
+@media (max-width: 768px) {
+  #roi-auth .auth__advantages {
+    border-left: 0;
+    padding: 0;
+    width: 100%;
+  }
+  #roi-auth .auth__advantages:before {
+    content: '';
+    display: block;
+    height: 1px;
+    margin: 0 auto 30px;
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  #roi-auth .auth__advantages:before {
+    margin: 30px auto;
+  }
+}
+#roi-auth .auth__advantages-intro {
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+#roi-auth .auth__advantages-list {
+  margin: 0;
+  padding: 0;
+}
+#roi-auth .auth__advantages-item {
+  margin-bottom: 5px;
+}
+@media (max-width: 768px) {
+  #roi-auth .auth__advantages-item {
+    display: inline-flex;
+    width: 50%;
+  }
+}
+@media (max-width: 480px) {
+  #roi-auth .auth__advantages-item {
+    width: 100%;
+  }
+}
+#roi-auth .auth__advantages-item-text {
+  padding-left: 10px;
+}
+#roi-auth .auth__check,
+#roi-auth .auth__smile {
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+#roi-auth .auth__logout {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: inherit;
+}
+#form-builder .form-builder {
+  width: 100%;
+}
+#form-builder .form-builder__fields {
+  padding: 0;
+}
+#form-builder .form-builder__text-field,
+#form-builder .form-builder__email-field,
+#form-builder .form-builder__password-field,
+#form-builder .form-builder__select,
+#form-builder .form-builder__textarea {
+  height: 50px;
+  margin-bottom: 20px;
+}
+#form-builder .form-builder__text-field label,
+#form-builder .form-builder__email-field label,
+#form-builder .form-builder__password-field label,
+#form-builder .form-builder__select label,
+#form-builder .form-builder__textarea label,
+#form-builder .form-builder__text-field input,
+#form-builder .form-builder__email-field input,
+#form-builder .form-builder__password-field input,
+#form-builder .form-builder__select input,
+#form-builder .form-builder__textarea input,
+#form-builder .form-builder__text-field select,
+#form-builder .form-builder__email-field select,
+#form-builder .form-builder__password-field select,
+#form-builder .form-builder__select select,
+#form-builder .form-builder__textarea select,
+#form-builder .form-builder__text-field textarea,
+#form-builder .form-builder__email-field textarea,
+#form-builder .form-builder__password-field textarea,
+#form-builder .form-builder__select textarea,
+#form-builder .form-builder__textarea textarea {
+  display: block;
+  margin-bottom: 0.1rem;
+}
+#form-builder .form-builder__text-field label,
+#form-builder .form-builder__email-field label,
+#form-builder .form-builder__password-field label,
+#form-builder .form-builder__select label,
+#form-builder .form-builder__textarea label {
+  margin-bottom: 2.5px;
+}
+#form-builder .form-builder__text-field input,
+#form-builder .form-builder__email-field input,
+#form-builder .form-builder__password-field input,
+#form-builder .form-builder__select input,
+#form-builder .form-builder__textarea input,
+#form-builder .form-builder__text-field select,
+#form-builder .form-builder__email-field select,
+#form-builder .form-builder__password-field select,
+#form-builder .form-builder__select select,
+#form-builder .form-builder__textarea select {
+  appearance: none;
+  padding: 0 0 5px;
+  width: 100%;
+}
+#form-builder .form-builder__text-field textarea,
+#form-builder .form-builder__email-field textarea,
+#form-builder .form-builder__password-field textarea,
+#form-builder .form-builder__select textarea,
+#form-builder .form-builder__textarea textarea {
+  height: 15rem;
+  padding: 5px;
+  width: 100%;
+}
+#form-builder .form-builder__text-field--inputnachname,
+#form-builder .form-builder__email-field--inputnachname,
+#form-builder .form-builder__password-field--inputnachname,
+#form-builder .form-builder__select--inputnachname,
+#form-builder .form-builder__textarea--inputnachname {
+  display: none;
+}
+#form-builder .form-builder__text-field-legend,
+#form-builder .form-builder__email-field-legend,
+#form-builder .form-builder__password-field-legend,
+#form-builder .form-builder__select-legend,
+#form-builder .form-builder__textarea-legend {
+  margin-bottom: 10px;
+  margin-top: 30px;
+  padding: 0;
+}
+#form-builder .form-builder__button {
+  margin-top: 20px;
+}
+#form-builder .form-builder__forget,
+#form-builder .form-builder__required,
+#form-builder .form-builder__register,
+#form-builder .form-builder__logout,
+#form-builder .form-builder__success-text {
+  display: block;
+  margin: 20px 0 0;
+}
+#form-builder .form-builder__checkbox-field {
+  margin-bottom: 20px;
+  align-items: center;
+  display: flex;
+}
+#form-builder .form-builder__checkbox-field label {
+  padding-left: 5px;
+  width: calc(100% -  15px);
+}
+#form-builder .form-builder__checkbox-field input {
+  height: 15px;
+  margin: 0;
+  width: 15px;
+}
+#form-builder .form-builder__checkbox-field-legend {
+  margin-bottom: 10px;
+  margin-top: 30px;
+  padding: 0;
+}
+#form-builder .form-builder__recaptcha {
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+#form-builder .form-builder__input-error-message {
+  display: block;
+  position: absolute;
+}
+#form-builder .form-builder__button {
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#form-builder select::-ms-expand {
+  display: none;
+}
+#roi-social-login .social-login {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+#roi-social-login .social-login--inline {
+  flex-direction: row;
+}
+#roi-social-login .social-login--block {
+  align-items: center;
+  flex-direction: column;
+}
+#roi-social-login .social-login__button {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 20px 10px;
+  min-height: 40px;
+  padding: 0;
+  width: 100%;
+}
+#roi-social-login .social-login__button--loading {
+  justify-content: center;
+}
+#roi-social-login .social-login__button-icon {
+  height: 100%;
+  line-height: inherit;
+  min-height: 40px;
+  width: 40px;
+}
+#roi-social-login .social-login__button-text {
+  padding: 0 1rem;
+  width: calc(100% - 40px);
+}
+#roi-social-login .social-login__button {
+  min-width: 100%;
+}
+#roi-conditions .roi-conditions__checkbox {
+  flex-wrap: wrap;
+  margin: 5px 0;
+  align-items: center;
+  display: flex;
+}
+#roi-conditions .roi-conditions__checkbox label {
+  padding-left: 5px;
+  width: calc(100% -  15px);
+}
+#roi-conditions .roi-conditions__checkbox input {
+  height: 15px;
+  margin: 0;
+  width: 15px;
+}
+#roi-conditions .roi-conditions .input-error-message {
+  display: block;
+}
+#roi-conditions .roi-conditions__checkbox-label {
+  margin-bottom: 0;
+}
+#roi-loyalty-icon * {
+  box-sizing: border-box;
+}
+#roi-loyalty-icon .c-tooltip {
+  box-shadow: 0 1.4rem 2.8rem hsla(0, 0%, 0%, 0.25), 0 1rem 1rem hsla(0, 0%, 0%, 0.2);
+  height: auto;
+  left: 0;
+  min-width: 200px;
+  position: absolute;
+  top: 0;
+  transform: translateZ(0);
+  transition: none;
+  z-index: 1200;
+  opacity: 1;
+}
+#roi-loyalty-icon .c-tooltip__action {
+  display: block;
+  font-size: 0;
+  width: 100%;
+}
+#roi-loyalty-icon .c-tooltip__close {
+  cursor: pointer;
+  height: 44px;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 44px;
+  z-index: 1200;
+}
+#roi-loyalty-icon .c-tooltip__triangle {
+  display: block;
+  height: 0;
+  margin: 0 auto;
+  position: absolute;
+  top: -10px;
+}
+#roi-loyalty-icon .loyalty-wrap {
+  position: relative;
+}
+#roi-loyalty-icon .loyalty-icon {
+  padding: 0;
+  display: inline-block;
+  height: 30px;
+  position: relative;
+  width: 30px;
+  z-index: 501;
+}
+#roi-loyalty-icon .loyalty-icon--loading {
+  display: inherit;
+  margin: 0 auto;
+  overflow: hidden;
+  width: 30px;
+}
+#roi-loyalty-icon .loyalty-icon__user {
+  border: 0;
+  cursor: pointer;
+  display: inline-block;
+  height: 100%;
+  padding: 5px;
+  pointer-events: none;
+  width: 100%;
+}
+#roi-loyalty-icon .loyalty-icon__user-cta {
+  display: none;
+}
+#roi-loyalty-icon .loyalty-icon__logo {
+  align-self: flex-start;
+  height: 40px;
+  margin-left: 0;
+  margin-right: 5px;
+  width: auto;
+}
+#roi-loyalty-icon .loyalty-icon__claim {
+  display: flex;
+  padding: 20px 30px 20px 20px;
+  width: 400px;
+}
+#roi-loyalty-icon .loyalty-icon__claim {
+  flex-direction: column;
+}
+@media (max-width: 480px) {
+  #roi-loyalty-icon .loyalty-icon__claim {
+    width: 320px;
+  }
+}
+#roi-loyalty-icon .loyalty-icon__claim-text {
+  white-space: normal;
+}
+#roi-loyalty-icon .loyalty-icon__logo {
+  margin-bottom: 15px;
+}
+#roi-loyalty-icon .loyalty-area-menu-brand__link {
+  padding: 5px 0;
+}
+#roi-loyalty-icon .loyalty-area-menu-brand__link::after,
+#roi-loyalty-icon .loyalty-area-menu-brand__link::before {
+  content: none;
+}
+.loading #roi-dialog__modal-holder {
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  max-width: 100%;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+#roi-render-in-body-default {
+  display: flex;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10001;
+}
+#roi-render-in-body-default * {
+  box-sizing: border-box;
+}
+#roi-render-in-body-default .loaderbars {
+  left: 50%;
+  margin: auto;
+  position: fixed;
+  top: 50%;
+}
+#roi-render-in-body-default .modal-holder {
+  height: 100%;
+  left: 0;
+  overflow-y: auto;
+  padding: 15px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10001;
+  align-items: center;
+  height: auto;
+  margin: 0 auto;
+  max-height: 100%;
+  max-width: 1000px;
+  padding: 0;
+  position: relative;
+  width: initial;
+}
+#roi-render-in-body-default .modal-holder__title-holder > :first-of-type {
+  margin-top: 5px;
+}
+#roi-render-in-body-default .modal-holder__title {
+  padding-bottom: 10px;
+}
+#roi-render-in-body-default .modal-holder__title-icon {
+  padding-right: 5px;
+}
+#roi-render-in-body-default .modal-holder__close-button {
+  display: block;
+  float: right;
+}
+#roi-render-in-body-default .modal-holder__button {
+  margin-top: 15px;
+  width: inherit;
+}
+#roi-render-in-body-default .modal-holder__header {
+  padding: 20px 40px 20px 30px;
+  position: relative;
+  width: 100%;
+}
+#roi-render-in-body-default .modal-holder__title {
+  padding-bottom: 0;
+}
+#roi-render-in-body-default .modal-holder__content {
+  overflow-y: auto;
+  padding: 20px 30px;
+}
+#roi-render-in-body-default .modal-holder__content h2 {
+  margin: 0;
+}
+#roi-render-in-body-default .modal-holder__close-button {
+  border: 0;
+  cursor: pointer;
+  top: 0;
+  padding: 10px 15px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: auto;
+}
+#roi-render-in-body-default .modal-holder__button {
+  cursor: pointer;
+  left: 50%;
+  line-height: 1.2;
+  margin: 0 auto 20px;
+  padding: 0.6em 1.8em 0.5em;
+  position: relative;
+  transform: translateX(-50%);
+}
+#roi-render-in-body-default .roi-modal {
+  background: transparent;
+  bottom: auto;
+  display: block;
+  height: auto;
+  left: auto;
+  overflow: visible;
+  position: static;
+  right: auto;
+  top: auto;
+  width: auto;
+}
+#roi-render-in-body-default .roi-modal__header {
+  display: none;
+}
+#roi-render-in-body-default .roi-modal__content {
+  background: transparent;
+  box-shadow: none;
+  margin: 0;
+  position: static;
+  width: auto;
+}
+.rb_bc #roi-auth .auth {
+  padding: 30px;
+}
+body.openmodal {
+  overflow: hidden;
+}
+#roi-loyalty * {
+  box-sizing: border-box;
+}
+/* Mobile Basic Variables */
+/* References  */
+/* Personalization Styles dependecies */
+/* Desktop Basic Variables */
+/* Font size reset */
+/* Border width reset */
+/* Form builder */
+/* Conditions */
+/* Tooltip */
+/* Loyalty user claim  */
+#roi-auth__modal {
+  background: rgba(0, 0, 0, 0.3);
+}
+#roi-auth__modal .modal-holder {
+  background: #ffffff;
+  color: #333333;
+  font-size: 14px;
+  text-align: start;
+}
+@media only screen and (min-width: 400px) {
+  #roi-auth__modal .modal-holder {
+    font-size: 16px;
+  }
+}
+#roi-auth__modal .modal-holder__content-holder {
+  line-height: 1.6;
+}
+#roi-auth__modal .modal-holder__close-button {
+  background-color: #191919;
+  border: 0;
+  color: #ffffff;
+  font-size: 22px;
+  line-height: 22px;
+  text-decoration: none;
+}
+#roi-auth__modal .modal-holder__close-button:focus {
+  outline: 1px solid #f8f8f8;
+}
+#roi-auth__modal .modal-holder__content [href] {
+  color: #ffa300;
+}
+#roi-auth__modal .modal-holder__content strong {
+  font-weight: 700;
+}
+#roi-auth__modal .modal-holder__button {
+  cursor: pointer;
+  display: block;
+  font-size: 1.2rem;
+  letter-spacing: 0.1em;
+  padding: 0.7em 1.2em 0.6em;
+  text-transform: uppercase;
+  width: auto;
+  text-align: center;
+  width: inherit;
+}
+@media only screen and (min-width: 400px) {
+  #roi-auth__modal .modal-holder__button {
+    font-size: 14px;
+  }
+}
+#roi-auth__modal .modal-holder__button,
+#roi-auth__modal .modal-holder__button:hover,
+#roi-auth__modal .modal-holder__button:visited,
+#roi-auth__modal .modal-holder__button:active {
+  background-color: #84b044;
+  border-radius: 20px;
+  color: #ffffff;
+  text-decoration: none;
+  border: 0.1rem solid #84b044;
+}
+#roi-auth__modal .auth__modal {
+  background: #ffffff;
+  border-radius: 15px;
+}
+#roi-auth__modal .auth__modal-close-button {
+  background: #ffffff;
+  color: #999999;
+  font-size: 30px;
+  line-height: 1;
+  text-align: right;
+}
+#roi-auth__modal .auth__modal-close-button:focus {
+  outline: 1px solid tranparent;
+}
+#roi-auth__modal .auth__modal-close-button:hover {
+  color: #999999;
+  text-decoration: none;
+}
+#roi-auth .auth {
+  font-size: 12px;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 19px;
+  outline: 0;
+  color: #333333;
+}
+@media only screen and (min-width: 400px) {
+  #roi-auth .auth {
+    font-size: 16px;
+  }
+}
+#roi-auth .auth__text {
+  text-align: center;
+  font-size: 16px;
+}
+@media only screen and (min-width: 400px) {
+  #roi-auth .auth__text {
+    font-size: 18px;
+  }
+}
+#roi-auth .auth__title {
+  font-size: 12px;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 19px;
+  outline: 0;
+  color: #333333;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-align: center;
+  text-transform: uppercase;
+}
+@media only screen and (min-width: 400px) {
+  #roi-auth .auth__title {
+    font-size: 16px;
+  }
+}
+#roi-auth .auth__ortext {
+  text-align: center;
+  text-transform: uppercase;
+}
+#roi-auth .auth__ortext::before,
+#roi-auth .auth__ortext::after {
+  background: hsl(0, 0%, 90%);
+  content: '';
+}
+#roi-auth .auth__booking-button,
+#roi-auth .auth__social-gdpr-button {
+  border: 0;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  text-transform: uppercase;
+  box-shadow: 0 0.3rem 0.6rem hsla(0, 0%, 0%, 0.16), 0 0.3rem 0.6rem hsla(0, 0%, 0%, 0.25);
+}
+@media only screen and (min-width: 400px) {
+  #roi-auth .auth__booking-button,
+  #roi-auth .auth__social-gdpr-button {
+    font-size: 16px;
+  }
+}
+#roi-auth .auth__booking-button,
+#roi-auth .auth__social-gdpr-button,
+#roi-auth .auth__booking-button:hover,
+#roi-auth .auth__social-gdpr-button:hover,
+#roi-auth .auth__booking-button:visited,
+#roi-auth .auth__social-gdpr-button:visited,
+#roi-auth .auth__booking-button:active,
+#roi-auth .auth__social-gdpr-button:active {
+  background-color: #84b044;
+  border-radius: 15px;
+  color: #333333;
+  text-decoration: none;
+}
+#roi-auth .auth__booking-button:focus,
+#roi-auth .auth__social-gdpr-button:focus {
+  outline: 1px solid tranparent;
+}
+#roi-auth .auth__check {
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%3F%3E%0A%3Csvg%20width%3D%22164px%22%20height%3D%22164px%22%20viewBox%3D%220%200%20164%20164%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%0A%20%20%20%20%3Cdefs%3E%3C%2Fdefs%3E%0A%20%20%20%20%3Cg%20id%3D%22export%22%20stroke%3D%22none%22%20stroke-width%3D%221%22%20fill-rule%3D%22evenodd%22%3E%0A%20%20%20%20%20%20%20%20%3Cg%20id%3D%22Artboard%22%20transform%3D%22translate(-5480.000000%2C%20-10050.000000)%22%20fill%3D%22%23333333%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cg%20id%3D%22check_%22%20transform%3D%22translate(5480.000000%2C%2010050.000000)%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cg%20id%3D%22Group%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cpolygon%20id%3D%22Shape%22%20fill-rule%3D%22nonzero%22%20points%3D%2266.2071848%2099.893915%2047.5407625%2081.2274927%2040.6272727%2088.8323314%2066.2071848%20114.412243%20126.354545%2054.2648827%20119.441056%2047.351393%22%3E%3C%2Fpolygon%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M82%2C164%20C36.6213592%2C164%200%2C127.378641%200%2C82%20C0%2C36.6213592%2036.6213592%2C0%2082%2C0%20C127.378641%2C0%20164%2C36.6213592%20164%2C82%20C164%2C127.378641%20127.378641%2C164%2082%2C164%20Z%20M82%2C155.8%20C122.840777%2C155.8%20155.8%2C122.840777%20155.8%2C82%20C155.8%2C41.1592233%20122.840777%2C8.2%2082%2C8.2%20C41.1592233%2C8.2%208.2%2C41.1592233%208.2%2C82%20C8.2%2C122.840777%2041.1592233%2C155.8%2082%2C155.8%20Z%22%20id%3D%22Combined-Shape%22%20fill-rule%3D%22nonzero%22%3E%3C%2Fpath%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E");
+}
+#roi-auth .auth__mail {
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%0A%3Csvg%20width%3D%2228px%22%20height%3D%2228px%22%20viewBox%3D%220%200%2028%2028%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%0A%20%20%20%20%3Cg%20stroke%3D%22none%22%20stroke-width%3D%221%22%20fill-rule%3D%22evenodd%22%20fill%3D%22%2384b044%22%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M2.03913043%2C7.06086957%20C0.938277078%2C7.06086957%200.0447888%2C7.92557165%200%2C9.01503631%20L12.6879227%2C16.6240137%20L19.8134735%2C12.4638574%20C18.3061592%2C10.914652%2018.1967583%2C9.01503631%2018.6183093%2C7.06086957%20L2.03913043%2C7.06086957%20Z%20M0%2C10.4122183%20L12.3763888%2C17.8418277%20C12.5680661%2C17.9571621%2012.8077792%2C17.9571621%2012.9994565%2C17.8418277%20C15.6824336%2C16.3184263%2018.1948945%2C14.8178352%2020.5368389%2C13.3400544%20C21.9719886%2C14.2632738%2023.5849909%2C14.4739392%2025.3758454%2C13.9720509%20L25.3758454%2C21.3347826%20C25.3758454%2C22.4644604%2024.4663927%2C23.373913%2023.3367149%2C23.373913%20L2.03913043%2C23.373913%20C0.909452661%2C23.373913%200%2C22.4644604%200%2C21.3347826%20L0%2C10.4122183%20Z%20M23.7391304%2C13.1478261%20C21.3859172%2C13.1478261%2019.4782609%2C11.2401698%2019.4782609%2C8.88695652%20C19.4782609%2C6.53374327%2021.3859172%2C4.62608696%2023.7391304%2C4.62608696%20C26.0923437%2C4.62608696%2028%2C6.53374327%2028%2C8.88695652%20C28%2C11.2401698%2026.0923437%2C13.1478261%2023.7391304%2C13.1478261%20Z%20M24.9223968%2C7.69688689%20L23.482303%2C9.19132383%20L22.8904173%2C8.59943791%20C22.7002489%2C8.40926946%2022.391925%2C8.40926946%2022.2017566%2C8.59943791%20C22.0115884%2C8.78960612%2022.0115884%2C9.09792995%2022.2017566%2C9.2880984%20L23.1444082%2C10.2307501%20C23.3370714%2C10.4234129%2023.6503225%2C10.4205129%2023.8393853%2C10.2243157%20L25.6236902%2C8.37267833%20C25.8103048%2C8.17902157%2025.8045962%2C7.87075082%2025.6109392%2C7.68413593%20C25.4172824%2C7.49752129%2025.1090117%2C7.50322988%2024.9223968%2C7.69688689%20Z%22%20id%3D%22sobre%22%3E%3C%2Fpath%3E%0A%20%20%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E%0A");
+}
+#roi-auth .auth__smile {
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%3F%3E%0A%3Csvg%20width%3D%22164px%22%20height%3D%22164px%22%20viewBox%3D%220%200%20164%20164%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%0A%20%20%20%20%3Cdefs%3E%3C%2Fdefs%3E%0A%20%20%20%20%3Cg%20id%3D%22export%22%20stroke%3D%22none%22%20stroke-width%3D%221%22%20fill-rule%3D%22evenodd%22%3E%0A%20%20%20%20%20%20%20%20%3Cg%20id%3D%22Artboard%22%20transform%3D%22translate(-5480.000000%2C%20-10050.000000)%22%20fill%3D%22%23333333%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cg%20id%3D%22check_%22%20transform%3D%22translate(5480.000000%2C%2010050.000000)%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cg%20id%3D%22Group%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cpolygon%20id%3D%22Shape%22%20fill-rule%3D%22nonzero%22%20points%3D%2266.2071848%2099.893915%2047.5407625%2081.2274927%2040.6272727%2088.8323314%2066.2071848%20114.412243%20126.354545%2054.2648827%20119.441056%2047.351393%22%3E%3C%2Fpolygon%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M82%2C164%20C36.6213592%2C164%200%2C127.378641%200%2C82%20C0%2C36.6213592%2036.6213592%2C0%2082%2C0%20C127.378641%2C0%20164%2C36.6213592%20164%2C82%20C164%2C127.378641%20127.378641%2C164%2082%2C164%20Z%20M82%2C155.8%20C122.840777%2C155.8%20155.8%2C122.840777%20155.8%2C82%20C155.8%2C41.1592233%20122.840777%2C8.2%2082%2C8.2%20C41.1592233%2C8.2%208.2%2C41.1592233%208.2%2C82%20C8.2%2C122.840777%2041.1592233%2C155.8%2082%2C155.8%20Z%22%20id%3D%22Combined-Shape%22%20fill-rule%3D%22nonzero%22%3E%3C%2Fpath%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E");
+}
+#roi-auth .auth__check,
+#roi-auth .auth__smile,
+#roi-auth .auth__mail {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 10rem 10rem;
+  display: block;
+  height: 10rem;
+  width: 100%;
+}
+#roi-auth .auth__success-text {
+  text-align: center;
+}
+#roi-auth .auth__forget,
+#roi-auth .auth__register,
+#roi-auth .auth__success-text {
+  font-size: 12px;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 19px;
+  outline: 0;
+  color: #333333;
+  text-align: center;
+}
+@media only screen and (min-width: 400px) {
+  #roi-auth .auth__forget,
+  #roi-auth .auth__register,
+  #roi-auth .auth__success-text {
+    font-size: 16px;
+  }
+}
+#roi-auth .auth__forget:focus,
+#roi-auth .auth__register:focus,
+#roi-auth .auth__success-text:focus {
+  outline: 1px solid tranparent;
+}
+#roi-auth .auth__logout {
+  margin-bottom: 10px;
+  cursor: pointer;
+  display: block;
+  font-size: 1.2rem;
+  letter-spacing: 0.1em;
+  padding: 0.7em 1.2em 0.6em;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+}
+@media only screen and (min-width: 400px) {
+  #roi-auth .auth__logout {
+    font-size: 14px;
+  }
+}
+#roi-auth .auth__logout,
+#roi-auth .auth__logout:hover,
+#roi-auth .auth__logout:visited,
+#roi-auth .auth__logout:active {
+  background-color: #ffffff;
+  border-radius: 20px;
+  color: #333333;
+  text-decoration: none;
+  border: 0.1rem solid rgba(51, 51, 51, 0.4);
+}
+#roi-auth .auth__logout:focus {
+  outline: 1px solid tranparent;
+}
+#roi-auth .auth__advice {
+  font-size: 12px;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 19px;
+  outline: 0;
+  color: #333333;
+}
+@media only screen and (min-width: 400px) {
+  #roi-auth .auth__advice {
+    font-size: 16px;
+  }
+}
+#roi-auth .auth__modal {
+  background: #ffffff;
+  text-align: start;
+}
+#roi-auth .auth__modal-close-button {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 60%);
+  font-size: 22px;
+  line-height: 20px;
+  text-decoration: none;
+}
+#roi-auth .auth__modal-close-button:focus {
+  outline: 1px solid tranparent;
+}
+#roi-auth .auth__advantages {
+  text-align: center;
+}
+#roi-auth .auth__advantages-intro {
+  font-size: 16px;
+  line-height: 1.3;
+  text-align: center;
+}
+@media only screen and (min-width: 400px) {
+  #roi-auth .auth__advantages-intro {
+    font-size: 18px;
+  }
+}
+#roi-auth .auth__advantages-item {
+  font-size: 16px;
+  line-height: 1.3;
+  text-align: left;
+}
+@media only screen and (min-width: 400px) {
+  #roi-auth .auth__advantages-item {
+    font-size: 18px;
+  }
+}
+#roi-auth .auth__advantages-item::before {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  content: '';
+  display: inline-block;
+  height: 20px;
+  min-width: 20px;
+  width: 20px;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%3F%3E%0A%3Csvg%20width%3D%22164px%22%20height%3D%22164px%22%20viewBox%3D%220%200%20164%20164%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%0A%20%20%20%20%3Cdefs%3E%3C%2Fdefs%3E%0A%20%20%20%20%3Cg%20id%3D%22export%22%20stroke%3D%22none%22%20stroke-width%3D%221%22%20fill-rule%3D%22evenodd%22%3E%0A%20%20%20%20%20%20%20%20%3Cg%20id%3D%22Artboard%22%20transform%3D%22translate(-5480.000000%2C%20-10050.000000)%22%20fill%3D%22%23333333%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cg%20id%3D%22check_%22%20transform%3D%22translate(5480.000000%2C%2010050.000000)%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cg%20id%3D%22Group%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cpolygon%20id%3D%22Shape%22%20fill-rule%3D%22nonzero%22%20points%3D%2266.2071848%2099.893915%2047.5407625%2081.2274927%2040.6272727%2088.8323314%2066.2071848%20114.412243%20126.354545%2054.2648827%20119.441056%2047.351393%22%3E%3C%2Fpolygon%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M82%2C164%20C36.6213592%2C164%200%2C127.378641%200%2C82%20C0%2C36.6213592%2036.6213592%2C0%2082%2C0%20C127.378641%2C0%20164%2C36.6213592%20164%2C82%20C164%2C127.378641%20127.378641%2C164%2082%2C164%20Z%20M82%2C155.8%20C122.840777%2C155.8%20155.8%2C122.840777%20155.8%2C82%20C155.8%2C41.1592233%20122.840777%2C8.2%2082%2C8.2%20C41.1592233%2C8.2%208.2%2C41.1592233%208.2%2C82%20C8.2%2C122.840777%2041.1592233%2C155.8%2082%2C155.8%20Z%22%20id%3D%22Combined-Shape%22%20fill-rule%3D%22nonzero%22%3E%3C%2Fpath%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E");
+}
+#roi-auth .auth__advantages-item-text strong,
+#roi-auth .auth__advantages-item-text b {
+  font-weight: 700;
+}
+#roi-auth .auth__advantages-item-text em,
+#roi-auth .auth__advantages-item-text i {
+  font-style: italic;
+}
+#roi-auth .auth__advantages--line {
+  border-top: 1px solid hsl(0, 0%, 90%);
+}
+#roi-auth .auth__email-button {
+  background: #84b044;
+  border: solid 1px hsl(0, 0%, 70%);
+  color: #333333;
+  cursor: pointer;
+  font-size: 14px;
+  height: 40px;
+  letter-spacing: 0.1em;
+  line-height: 39.8px;
+  text-align: left;
+  text-transform: uppercase;
+  background-clip: padding-box;
+  border-radius: 15px;
+  box-shadow: 0 0.3rem 0.6rem hsla(0, 0%, 0%, 0.16), 0 0.3rem 0.6rem hsla(0, 0%, 0%, 0.25);
+}
+#roi-auth .auth__email-button:focus {
+  outline: 1px solid tranparent;
+}
+#roi-auth .auth__email-button-icon {
+  background-position: 70% 50%;
+  background-repeat: no-repeat;
+  background-size: 20px 13px;
+  border-right: 1px solid hsl(0, 0%, 70%);
+  width: 40px;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2221px%22%20height%3D%2214px%22%20viewBox%3D%220%200%2021%2014%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%0A%20%20%20%20%3Cg%20id%3D%22Page-1%22%20stroke%3D%22none%22%20stroke-width%3D%221%22%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%0A%20%20%20%20%20%20%20%20%3Cg%20id%3D%22envelope%22%20fill%3D%22%23333333%22%20fill-rule%3D%22nonzero%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cpath%20d%3D%22M0.715909074%2C0%20C0.327552265%2C0%200%2C0.327542719%200%2C0.715909074%20L0%2C13.1250069%20C0%2C13.5133636%200.327552265%2C13.8409159%200.715909074%2C13.8409159%20L20.2840909%2C13.8409159%20C20.6724477%2C13.8409159%2021%2C13.5133636%2021%2C13.1250069%20L21%2C0.715909074%20C21%2C0.327542719%2020.6724477%2C0%2020.2840909%2C0%20L0.715909074%2C0%20Z%20M1.49147724%2C0.954545432%20L19.5085227%2C0.954545432%20L10.4999998%2C8.67293536%20L1.49147724%2C0.954545432%20Z%20M0.954545432%2C1.75248575%20L6.57741462%2C6.56995246%20L0.954545432%2C12.1928216%20L0.954545432%2C1.75248575%20Z%20M20.0454545%2C1.75248575%20L20.0454545%2C12.1928216%20L14.4225849%2C6.56995246%20L20.0454545%2C1.75248575%20Z%20M7.30079302%2C7.18892745%20L10.1867895%2C9.66477965%20C10.3663925%2C9.82095854%2010.633607%2C9.82095854%2010.81321%2C9.66477965%20L13.6992065%2C7.18892745%20L19.39665%2C12.8863705%20L1.60334996%2C12.8863705%20L7.30079302%2C7.18892745%20Z%22%20id%3D%22Shape%22%3E%3C%2Fpath%3E%0A%20%20%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E");
+}
+#roi-auth .auth__loyalty-logo {
+  text-align: center;
+}
+#roi-auth .auth__social-gdpr-user-info {
+  background: hsl(0, 0%, 90%);
+}
+#roi-auth .auth * {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: Lato, Arial, sans-serif;
+  font-weight: 400;
+}
+#roi-auth .auth__booking-button,
+#roi-auth .auth__social-gdpr-button {
+  box-shadow: none;
+  font-family: Lato, Arial, sans-serif;
+  font-size: 12px;
+  letter-spacing: 0;
+}
+#roi-auth .auth__booking-button:hover,
+#roi-auth .auth__social-gdpr-button:hover,
+#roi-auth .auth__booking-button:focus,
+#roi-auth .auth__social-gdpr-button:focus {
+  background-color: #688b36;
+  color: #333333;
+}
+#roi-auth .auth__email-button {
+  background: #ffffff;
+  color: #333333;
+  box-shadow: none;
+  font-family: Lato, Arial, sans-serif;
+  font-size: 12px;
+  letter-spacing: 0;
+}
+#roi-auth .auth__email-button-icon {
+  background-position: 55% 50%;
+}
+#roi-auth .auth__email-button:hover,
+#roi-auth .auth__email-button:focus {
+  transform: scale(1);
+  box-shadow: none;
+  color: #333333;
+  text-decoration: none;
+}
+#roi-auth .auth__title {
+  color: #333333;
+  font-size: 23px;
+  letter-spacing: 0;
+  text-align: left;
+  text-transform: none;
+}
+#roi-auth .auth__text {
+  font-size: 12px;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 19px;
+  outline: 0;
+  color: #333333;
+  text-align: left;
+}
+@media only screen and (min-width: 400px) {
+  #roi-auth .auth__text {
+    font-size: 16px;
+  }
+}
+#roi-auth .auth__forget,
+#roi-auth .auth__register {
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 19px;
+  outline: 0;
+  color: #333333;
+  text-decoration: underline;
+  text-align: center;
+}
+#roi-auth .auth__forget:hover,
+#roi-auth .auth__register:hover {
+  text-decoration: none;
+}
+#roi-auth .auth__success {
+  text-align: center;
+}
+#roi-auth .auth__success-text {
+  font-size: 12px;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 19px;
+  outline: 0;
+  color: #333333;
+  text-align: left;
+}
+@media only screen and (min-width: 400px) {
+  #roi-auth .auth__success-text {
+    font-size: 16px;
+  }
+}
+#roi-auth .auth__success .auth__booking-button {
+  color: #333333;
+}
+#roi-auth .auth__logout {
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 19px;
+  outline: 0;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  cursor: pointer;
+  text-decoration: underline;
+  text-transform: none;
+}
+#roi-auth .auth__logout:hover,
+#roi-auth .auth__logout:focus {
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  text-decoration: underline;
+}
+#roi-auth .auth__advice {
+  font-size: 12px;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 19px;
+  outline: 0;
+  color: #333333;
+}
+@media only screen and (min-width: 400px) {
+  #roi-auth .auth__advice {
+    font-size: 16px;
+  }
+}
+#roi-auth .auth__forget {
+  text-align: center;
+  text-decoration: underline;
+}
+#roi-auth .auth__required {
+  color: #333333;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 17px;
+  outline: 0;
+}
+#roi-auth .auth__advantages {
+  border-left: 1px solid #999999;
+}
+@media (max-width: 768px) {
+  #roi-auth .auth__advantages {
+    border-left: 0;
+  }
+  #roi-auth .auth__advantages:before {
+    background: #999999;
+  }
+}
+#roi-auth .auth__advantages-item:before {
+  background-size: 20px;
+  height: 22px;
+  width: 22px;
+}
+#roi-auth .auth__advantages-intro {
+  color: #333333;
+  font-weight: 400;
+  text-align: left;
+}
+#roi-auth .auth .input-error-message {
+  font-size: 14px;
+}
+#form-builder .form-builder__fields {
+  border: 0;
+}
+#form-builder .form-builder__text-field label,
+#form-builder .form-builder__email-field label,
+#form-builder .form-builder__password-field label,
+#form-builder .form-builder__select label,
+#form-builder .form-builder__textarea label {
+  font-weight: 400;
+  color: hsl(0, 0%, 50%);
+  font-size: 1.2rem;
+}
+@media only screen and (min-width: 400px) {
+  #form-builder .form-builder__text-field label,
+  #form-builder .form-builder__email-field label,
+  #form-builder .form-builder__password-field label,
+  #form-builder .form-builder__select label,
+  #form-builder .form-builder__textarea label {
+    font-size: 14px;
+  }
+}
+#form-builder .form-builder__text-field label,
+#form-builder .form-builder__email-field label,
+#form-builder .form-builder__password-field label,
+#form-builder .form-builder__select label,
+#form-builder .form-builder__textarea label,
+#form-builder .form-builder__text-field input,
+#form-builder .form-builder__email-field input,
+#form-builder .form-builder__password-field input,
+#form-builder .form-builder__select input,
+#form-builder .form-builder__textarea input,
+#form-builder .form-builder__text-field select,
+#form-builder .form-builder__email-field select,
+#form-builder .form-builder__password-field select,
+#form-builder .form-builder__select select,
+#form-builder .form-builder__textarea select,
+#form-builder .form-builder__text-field textarea,
+#form-builder .form-builder__email-field textarea,
+#form-builder .form-builder__password-field textarea,
+#form-builder .form-builder__select textarea,
+#form-builder .form-builder__textarea textarea {
+  color: hsl(0, 0%, 50%);
+}
+#form-builder .form-builder__text-field label:focus,
+#form-builder .form-builder__email-field label:focus,
+#form-builder .form-builder__password-field label:focus,
+#form-builder .form-builder__select label:focus,
+#form-builder .form-builder__textarea label:focus,
+#form-builder .form-builder__text-field input:focus,
+#form-builder .form-builder__email-field input:focus,
+#form-builder .form-builder__password-field input:focus,
+#form-builder .form-builder__select input:focus,
+#form-builder .form-builder__textarea input:focus,
+#form-builder .form-builder__text-field select:focus,
+#form-builder .form-builder__email-field select:focus,
+#form-builder .form-builder__password-field select:focus,
+#form-builder .form-builder__select select:focus,
+#form-builder .form-builder__textarea select:focus,
+#form-builder .form-builder__text-field textarea:focus,
+#form-builder .form-builder__email-field textarea:focus,
+#form-builder .form-builder__password-field textarea:focus,
+#form-builder .form-builder__select textarea:focus,
+#form-builder .form-builder__textarea textarea:focus {
+  outline: 1px solid tranparent;
+}
+#form-builder .form-builder__text-field input,
+#form-builder .form-builder__email-field input,
+#form-builder .form-builder__password-field input,
+#form-builder .form-builder__select input,
+#form-builder .form-builder__textarea input {
+  background: none;
+  border: 0;
+  border-bottom: 1px solid hsl(0, 0%, 50%);
+  border-radius: 0;
+  color: hsl(0, 0%, 30%);
+  font-size: 16px;
+  outline: 0;
+}
+@media only screen and (min-width: 400px) {
+  #form-builder .form-builder__text-field input,
+  #form-builder .form-builder__email-field input,
+  #form-builder .form-builder__password-field input,
+  #form-builder .form-builder__select input,
+  #form-builder .form-builder__textarea input {
+    font-size: 18px;
+  }
+}
+#form-builder .form-builder__text-field input:focus,
+#form-builder .form-builder__email-field input:focus,
+#form-builder .form-builder__password-field input:focus,
+#form-builder .form-builder__select input:focus,
+#form-builder .form-builder__textarea input:focus {
+  border-bottom: 2px solid hsl(0, 0%, 10%);
+}
+#form-builder .form-builder__text-field input:read-only,
+#form-builder .form-builder__email-field input:read-only,
+#form-builder .form-builder__password-field input:read-only,
+#form-builder .form-builder__select input:read-only,
+#form-builder .form-builder__textarea input:read-only {
+  background: none;
+  border: 0;
+  border-bottom: 0;
+  border-radius: 0;
+  color: hsl(0, 0%, 30%);
+  font-size: 16px;
+  outline: 0;
+}
+@media only screen and (min-width: 400px) {
+  #form-builder .form-builder__text-field input:read-only,
+  #form-builder .form-builder__email-field input:read-only,
+  #form-builder .form-builder__password-field input:read-only,
+  #form-builder .form-builder__select input:read-only,
+  #form-builder .form-builder__textarea input:read-only {
+    font-size: 18px;
+  }
+}
+#form-builder .form-builder__text-field input:read-only:focus,
+#form-builder .form-builder__email-field input:read-only:focus,
+#form-builder .form-builder__password-field input:read-only:focus,
+#form-builder .form-builder__select input:read-only:focus,
+#form-builder .form-builder__textarea input:read-only:focus {
+  border-bottom: 0;
+}
+#form-builder .form-builder__text-field select,
+#form-builder .form-builder__email-field select,
+#form-builder .form-builder__password-field select,
+#form-builder .form-builder__select select,
+#form-builder .form-builder__textarea select {
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid hsl(0, 0%, 50%);
+  border-radius: 0;
+  color: #333333;
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  outline: 0;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0A%3Csvg%20width%3D%221792%22%20height%3D%221792%22%20viewBox%3D%220%200%201792%201792%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M1395%20736q0%2013-10%2023l-466%20466q-10%2010-23%2010t-23-10l-466-466q-10-10-10-23t10-23l50-50q10-10%2023-10t23%2010l393%20393%20393-393q10-10%2023-10t23%2010l50%2050q10%2010%2010%2023z%22%20fill%3D%22hsl%280,%200%25,%2050%25%29%22%2F%3E%3C%2Fsvg%3E");
+  background-position: calc(100% - 10px) 50%;
+  background-repeat: no-repeat;
+  background-size: 20px;
+}
+@media only screen and (min-width: 400px) {
+  #form-builder .form-builder__text-field select,
+  #form-builder .form-builder__email-field select,
+  #form-builder .form-builder__password-field select,
+  #form-builder .form-builder__select select,
+  #form-builder .form-builder__textarea select {
+    font-size: 16px;
+  }
+}
+#form-builder .form-builder__text-field select:focus,
+#form-builder .form-builder__email-field select:focus,
+#form-builder .form-builder__password-field select:focus,
+#form-builder .form-builder__select select:focus,
+#form-builder .form-builder__textarea select:focus {
+  border-bottom: 2px solid hsl(0, 0%, 10%);
+}
+#form-builder .form-builder__text-field textarea,
+#form-builder .form-builder__email-field textarea,
+#form-builder .form-builder__password-field textarea,
+#form-builder .form-builder__select textarea,
+#form-builder .form-builder__textarea textarea {
+  background: transparent;
+}
+#form-builder .form-builder__text-field-legend,
+#form-builder .form-builder__email-field-legend,
+#form-builder .form-builder__password-field-legend,
+#form-builder .form-builder__select-legend,
+#form-builder .form-builder__textarea-legend {
+  color: hsl(0, 0%, 10%);
+  font-size: 14px;
+  font-weight: 700;
+  text-align: left;
+}
+@media only screen and (min-width: 400px) {
+  #form-builder .form-builder__text-field-legend,
+  #form-builder .form-builder__email-field-legend,
+  #form-builder .form-builder__password-field-legend,
+  #form-builder .form-builder__select-legend,
+  #form-builder .form-builder__textarea-legend {
+    font-size: 16px;
+  }
+}
+#form-builder .form-builder__checkbox-field label {
+  font-weight: 400;
+  color: hsl(0, 0%, 50%);
+  font-size: 1.2rem;
+}
+@media only screen and (min-width: 400px) {
+  #form-builder .form-builder__checkbox-field label {
+    font-size: 14px;
+  }
+}
+#form-builder .form-builder__checkbox-field input:focus {
+  outline: 1px solid tranparent;
+}
+#form-builder .form-builder__checkbox-field-legend {
+  color: hsl(0, 0%, 10%);
+  font-size: 14px;
+  font-weight: 700;
+  text-align: left;
+}
+@media only screen and (min-width: 400px) {
+  #form-builder .form-builder__checkbox-field-legend {
+    font-size: 16px;
+  }
+}
+#form-builder .form-builder__checkbox-field--error {
+  color: #df1f3a;
+}
+#form-builder .form-builder__button {
+  cursor: pointer;
+  display: block;
+  font-size: 14px;
+  letter-spacing: 0;
+  padding: 0.7em 1.2em 0.6em;
+  text-align: center;
+  text-transform: uppercase;
+  width: inherit;
+}
+@media only screen and (min-width: 400px) {
+  #form-builder .form-builder__button {
+    font-size: 16px;
+  }
+}
+#form-builder .form-builder__button,
+#form-builder .form-builder__button:hover,
+#form-builder .form-builder__button:visited,
+#form-builder .form-builder__button:active {
+  background-color: #84b044;
+  border-radius: 20px;
+  color: hsl(0, 0%, 97.4%);
+  text-decoration: none;
+  border: none;
+}
+#form-builder .form-builder__button:focus {
+  outline: 1px solid tranparent;
+}
+#form-builder .form-builder__input-error-message {
+  color: #df1f3a;
+  font-size: 1.1rem;
+}
+#roi-social-login .social-login__button {
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 14px;
+  letter-spacing: 0.2em;
+  text-align: left;
+  text-transform: uppercase;
+}
+#roi-social-login .social-login__button:focus {
+  outline: 1px solid tranparent;
+}
+#roi-social-login .social-login__button-icon {
+  background-position: 70% 50%;
+  background-repeat: no-repeat;
+}
+#roi-social-login .social-login__button--loading {
+  background: hsl(0, 0%, 100%);
+  border: solid 3px hsl(0, 0%, 90%);
+}
+#roi-social-login .social-login__button--facebook {
+  background: #4267b2;
+  border: solid 1px hsla(0, 0%, 100%, 0.4);
+  color: hsl(0, 0%, 100%);
+}
+#roi-social-login .social-login__button--facebook .social-login__button-icon {
+  background-size: 20px 20px;
+  border-right: 1px solid hsla(0, 0%, 100%, 0.4);
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0A%3Csvg%20width%3D%221792%22%20height%3D%221792%22%20viewBox%3D%220%200%201792%201792%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M1376%20128q119%200%20203.5%2084.5t84.5%20203.5v960q0%20119-84.5%20203.5t-203.5%2084.5h-188v-595h199l30-232h-229v-148q0-56%2023.5-84t91.5-28l122-1v-207q-63-9-178-9-136%200-217.5%2080t-81.5%20226v171h-200v232h200v595h-532q-119%200-203.5-84.5t-84.5-203.5v-960q0-119%2084.5-203.5t203.5-84.5h960z%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fsvg%3E");
+}
+#roi-social-login .social-login__button--google {
+  background: hsl(0, 0%, 100%);
+  border: solid 1px hsla(0, 0%, 30%, 0.4);
+  color: hsl(0, 0%, 30%);
+}
+#roi-social-login .social-login__button--google .social-login__button-icon {
+  background-size: 19.7px 19.7px;
+  border-right: 1px solid hsla(0, 0%, 30%, 0.4);
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218px%22%20height%3D%2218px%22%20viewBox%3D%220%200%2048%2048%22%20class%3D%22abcRioButtonSvg%22%3E%3Cg%3E%3Cpath%20fill%3D%22%23EA4335%22%20d%3D%22M24%209.5c3.54%200%206.71%201.22%209.21%203.6l6.85-6.85C35.9%202.38%2030.47%200%2024%200%2014.62%200%206.51%205.38%202.56%2013.22l7.98%206.19C12.43%2013.72%2017.74%209.5%2024%209.5z%22%3E%3C%2Fpath%3E%3Cpath%20fill%3D%22%234285F4%22%20d%3D%22M46.98%2024.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58%202.96-2.26%205.48-4.78%207.18l7.73%206c4.51-4.18%207.09-10.36%207.09-17.65z%22%3E%3C%2Fpath%3E%3Cpath%20fill%3D%22%23FBBC05%22%20d%3D%22M10.53%2028.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92%2016.46%200%2020.12%200%2024c0%203.88.92%207.54%202.56%2010.78l7.97-6.19z%22%3E%3C%2Fpath%3E%3Cpath%20fill%3D%22%2334A853%22%20d%3D%22M24%2048c6.48%200%2011.93-2.13%2015.89-5.81l-7.73-6c-2.15%201.45-4.92%202.3-8.16%202.3-6.26%200-11.57-4.22-13.47-9.91l-7.98%206.19C6.51%2042.62%2014.62%2048%2024%2048z%22%3E%3C%2Fpath%3E%3Cpath%20fill%3D%22none%22%20d%3D%22M0%200h48v48H0z%22%3E%3C%2Fpath%3E%3C%2Fg%3E%3C%2Fsvg%3E%0A");
+}
+#roi-social-login .social-login__button--facebook,
+#roi-social-login .social-login__button--google {
+  box-shadow: 0 1rem 2rem hsla(0, 0%, 0%, 0.2), 0 0.6rem 0.6rem hsla(0, 0%, 0%, 0.25);
+}
+#roi-social-login .social-login__button--google {
+  box-shadow: none;
+  font-family: Lato, Arial, sans-serif;
+  font-size: 12px;
+  letter-spacing: 0;
+  color: #333333;
+}
+#roi-social-login .social-login__button--google:hover,
+#roi-social-login .social-login__button--google:focus {
+  box-shadow: none;
+  color: hsl(0, 0%, 30%);
+  text-decoration: none;
+  transform: scale(1);
+}
+#roi-social-login .social-login__button--facebook {
+  box-shadow: none;
+  font-family: Lato, Arial, sans-serif;
+  font-size: 12px;
+  letter-spacing: 0;
+  color: hsl(0, 0%, 100%);
+}
+#roi-social-login .social-login__button--facebook:hover,
+#roi-social-login .social-login__button--facebook:focus {
+  box-shadow: none;
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+  transform: scale(1);
+}
+#roi-conditions .roi-conditions__checkbox-input:focus {
+  outline: 1px solid tranparent;
+}
+#roi-conditions .roi-conditions__checkbox-label {
+  font-size: 1.2rem;
+  outline: 0;
+  color: #808080;
+}
+@media only screen and (min-width: 400px) {
+  #roi-conditions .roi-conditions__checkbox-label {
+    font-size: 16px;
+  }
+}
+#roi-conditions .roi-conditions__checkbox-label strong {
+  font-weight: 700;
+}
+#roi-conditions .roi-conditions__checkbox-label em,
+#roi-conditions .roi-conditions__checkbox-label i {
+  font-style: italic;
+}
+#roi-conditions .roi-conditions__checkbox-label u {
+  text-decoration: underline;
+}
+#roi-conditions .roi-conditions__condition-link {
+  color: #333333;
+  font-size: 1.2rem;
+  outline: 0;
+}
+@media only screen and (min-width: 400px) {
+  #roi-conditions .roi-conditions__condition-link {
+    font-size: 16px;
+  }
+}
+#roi-conditions .roi-conditions__condition-link:focus {
+  outline: 1px solid tranparent;
+}
+#roi-conditions .roi-conditions .input-error-message {
+  color: #df1f3a;
+  font-size: 14px;
+}
+#roi-conditions .roi-conditions__checkbox-label {
+  color: #333333;
+  font-size: 16px;
+}
+#roi-conditions .roi-conditions__condition-link {
+  text-decoration: underline;
+}
+#roi-conditions .input-error-message {
+  font-size: 14px;
+}
+#roi-loyalty-icon {
+  font-size: 0;
+  padding: 0;
+  position: relative;
+}
+#roi-loyalty-icon * {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: Lato, Arial, sans-serif;
+  font-weight: 400;
+}
+#roi-loyalty-icon .c-tooltip {
+  background: hsl(0, 0%, 100%);
+  border-radius: 0;
+  box-shadow: 0 0.3rem 0.6rem hsla(0, 0%, 0%, 0.16), 0 0.3rem 0.6rem hsla(0, 0%, 0%, 0.25);
+}
+#roi-loyalty-icon .c-tooltip__close {
+  background: transparent;
+  border: 0;
+  color: hsl(0, 0%, 20%);
+  font-size: 18px;
+  line-height: 1;
+}
+#roi-loyalty-icon .c-tooltip__triangle {
+  border-bottom: 10px solid hsl(0, 0%, 100%);
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+}
+#roi-loyalty-icon .loyalty-icon {
+  border: 0;
+  background: #ffffff;
+  border-radius: 50%;
+  text-align: center;
+}
+#roi-loyalty-icon .loyalty-icon--loading .loyalty__loading-inner {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  margin: 0 20%;
+}
+#roi-loyalty-icon .loyalty-icon--loading .loyalty__loading-inner__line {
+  animation: loyalty-expand 1s ease-in-out infinite;
+  border-radius: 1rem;
+  display: inline-block;
+  height: 10px;
+  margin: 0 0.2rem;
+  transform-origin: center center;
+  width: 0.1rem;
+}
+#roi-loyalty-icon .loyalty-icon--loading .loyalty__loading-inner__line:nth-child(1) {
+  animation-delay: 0ms;
+  background: hsl(0, 0%, 90%);
+}
+#roi-loyalty-icon .loyalty-icon--loading .loyalty__loading-inner__line:nth-child(2) {
+  animation-delay: 180ms;
+  background: hsl(0, 0%, 80%);
+}
+#roi-loyalty-icon .loyalty-icon--loading .loyalty__loading-inner__line:nth-child(3) {
+  animation-delay: 360ms;
+  background: hsl(0, 0%, 70%);
+}
+#roi-loyalty-icon .loyalty-icon--loading .loyalty__loading-inner__line:nth-child(4) {
+  animation-delay: 540ms;
+  background: hsl(0, 0%, 60%);
+}
+@keyframes loyalty-expand {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(2);
+  }
+}
+#roi-loyalty-icon .loyalty-icon__user:focus {
+  outline: 1px solid tranparent;
+}
+#roi-loyalty-icon .loyalty-icon__user--out {
+  background: transparent;
+  fill: #999999;
+}
+#roi-loyalty-icon .loyalty-icon__user--in {
+  background: transparent;
+  fill: #84b044;
+}
+#roi-loyalty-icon .loyalty-icon__claim-text {
+  color: var(--loyaltyClaimTextColor, hsl(0, 0%, 10%));
+  font-size: 16px;
+  text-transform: none;
+}
+#roi-loyalty-icon .loyalty-area-menu-brand__link {
+  color: hsl(0, 0%, 10%) !important;
+  font-size: 16px;
+  line-height: 1.3;
+}
+#roi-loyalty-icon .loyalty-area-menu-brand__link:hover,
+#roi-loyalty-icon .loyalty-area-menu-brand__link:focus,
+#roi-loyalty-icon .loyalty-area-menu-brand__link--active {
+  background: hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 50%) !important;
+  text-decoration: none;
+}
+#roi-render-in-body-default {
+  background: rgba(0, 0, 0, 0.3);
+}
+#roi-render-in-body-default * {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: Lato, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.4;
+}
+#roi-render-in-body-default .modal-holder {
+  background: #ffffff;
+  font-size: 14px;
+  text-align: start;
+  border-radius: 15px;
+  color: #333333;
+}
+@media only screen and (min-width: 400px) {
+  #roi-render-in-body-default .modal-holder {
+    font-size: 16px;
+  }
+}
+#roi-render-in-body-default .modal-holder__content-holder {
+  line-height: 1.6;
+}
+#roi-render-in-body-default .modal-holder__close-button {
+  background-color: #191919;
+  border: 0;
+  color: #ffffff;
+  font-size: 22px;
+  line-height: 22px;
+  text-decoration: none;
+}
+#roi-render-in-body-default .modal-holder__close-button:focus {
+  outline: 1px solid #f8f8f8;
+}
+#roi-render-in-body-default .modal-holder__content [href] {
+  color: #ffa300;
+}
+#roi-render-in-body-default .modal-holder__content strong {
+  font-weight: 700;
+}
+#roi-render-in-body-default .modal-holder__button {
+  cursor: pointer;
+  display: block;
+  font-size: 1.2rem;
+  letter-spacing: 0.1em;
+  padding: 0.7em 1.2em 0.6em;
+  text-transform: uppercase;
+  width: auto;
+  text-align: center;
+  width: inherit;
+}
+@media only screen and (min-width: 400px) {
+  #roi-render-in-body-default .modal-holder__button {
+    font-size: 14px;
+  }
+}
+#roi-render-in-body-default .modal-holder__button,
+#roi-render-in-body-default .modal-holder__button:hover,
+#roi-render-in-body-default .modal-holder__button:visited,
+#roi-render-in-body-default .modal-holder__button:active {
+  background-color: #84b044;
+  border-radius: 20px;
+  color: #ffffff;
+  text-decoration: none;
+  border: 0.1rem solid #84b044;
+}
+#roi-render-in-body-default .modal-holder__header {
+  background: #191919;
+  color: #ffffff;
+  font-size: 18px;
+}
+#roi-render-in-body-default .modal-holder__content {
+  background-color: #ffffff;
+  color: #191919;
+}
+@media screen and (min-width: 400px) {
+  #roi-render-in-body-default .modal-holder__content {
+    font-size: 16px;
+  }
+}
+#roi-render-in-body-default .modal-holder__content h2 {
+  font-size: 22px;
+}
+#roi-render-in-body-default .modal-holder__close-button {
+  background: #191919;
+  color: #999999;
+  font-size: 30px;
+  line-height: 1;
+  text-align: right;
+}
+#roi-render-in-body-default .modal-holder__close-button:focus {
+  outline: 1px solid tranparent;
+}
+#roi-render-in-body-default .modal-holder__close-button:hover {
+  color: #999999;
+  text-decoration: none;
+}
+#roi-render-in-body-default .modal-holder__button {
+  font-family: Lato, Arial, sans-serif;
+  font-size: 12px;
+  letter-spacing: 0;
+  box-shadow: none;
+}
+#roi-render-in-body-default .modal-holder__button:hover,
+#roi-render-in-body-default .modal-holder__button:focus {
+  background-color: #688b36;
+  box-shadow: none;
+  color: #333333;
+}
+#roi-render-in-body-default .loaderbars .loaderbars__line {
+  animation: expand 1s ease-in-out infinite;
+  border-radius: 1rem;
+  display: inline-block;
+  height: 2.5rem;
+  margin: 0 0.3rem;
+  transform-origin: center center;
+  width: 0.2rem;
+}
+#roi-render-in-body-default .loaderbars .loaderbars__line:nth-child(1) {
+  animation-delay: 0ms;
+  background: #ffa300;
+}
+#roi-render-in-body-default .loaderbars .loaderbars__line:nth-child(2) {
+  animation-delay: 180ms;
+  background: #ffa300;
+}
+#roi-render-in-body-default .loaderbars .loaderbars__line:nth-child(3) {
+  animation-delay: 360ms;
+  background: #df1f3a;
+}
+#roi-render-in-body-default .loaderbars .loaderbars__line:nth-child(4) {
+  animation-delay: 540ms;
+  background: #df1f3a;
+}
+@keyframes expand {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(2);
+  }
+}
+.loading #roi-dialog__modal-holder {
+  background: rgba(0, 0, 0, 0.48);
+}
+#roi-loyalty * {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: Lato, Arial, sans-serif;
+  line-height: 1.3;
+}
+

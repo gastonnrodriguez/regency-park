@@ -1,0 +1,2 @@
+$(document).ready(function(){$(document).on("click",".header05__toggle-menu i, .header05__close-button i",function(){$(".header05__toggle-content").fadeToggle("fast")})});
+//# sourceMappingURL=menu_fade.min.js.map
